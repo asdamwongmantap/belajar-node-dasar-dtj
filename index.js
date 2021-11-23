@@ -13,6 +13,7 @@ app.get("/example_api",(req,res) => {
     })
 });
 
+//untuk api by param
 app.get("/request_parameter/:name",(req,res) => {
     if (req.params.name){
         res.send({
